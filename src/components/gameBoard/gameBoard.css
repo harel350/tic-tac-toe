@@ -1,0 +1,14 @@
+.bodyContainer{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    transform: translateY(30%);
+}
+.boardContainer{
+    width: 180px ;
+    height: 180px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

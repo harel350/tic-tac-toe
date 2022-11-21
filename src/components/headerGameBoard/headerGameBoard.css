@@ -1,0 +1,41 @@
+.headerGameBoardContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+    margin: 0;
+    font-size: 15px;
+    
+}
+.symbolContainer{
+    width: 30%;
+    display: flex;
+    
+}
+.symbolImg{
+    width: 20%;
+    height: 20%;
+    padding: 3px;
+}
+.turnHowContainer{
+    width: 30%;
+    padding: 1px 2px 1px 2px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #1F3641;
+    color: white;
+    font-family: 'Outfit';
+    font-size: 13px
+}
+.restartContainer{
+   
+    width: 30%;
+   text-align: center;
+}
+.restartImg{
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: grey;
+    box-shadow: 1px 2px black;
+}

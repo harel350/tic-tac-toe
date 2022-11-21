@@ -1,0 +1,75 @@
+.loginGameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(30%);
+}
+
+.symbolLoginContainer {
+
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.symbolLoginImg {
+    width: 15%;
+    height: 15%;
+    padding: 2px;
+}
+
+.choseContainer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1F3641;
+    box-shadow: inset 0px -3px 0px #10212A;
+    border-radius: 15px;
+}
+    .choseSymbolContainer {
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        padding: 3px;
+        background-color: #1A2A33;
+        border: 1px solid black;
+    }
+
+    .titleContainer {
+        color: white;
+        font-family: 'Outfit';
+        font-style: normal;
+        
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .noteContainer {
+        text-align: center;
+        font-size: 10px;
+        color: white;
+    }
+
+    .buttonsContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        margin-top: 3px;
+        margin-bottom: 3px;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+    button:hover{
+        opacity: 0.8;
+    }
+    .xIcon,.oIcon{
+        width: 30%;
+        height: 20%;   
+    }

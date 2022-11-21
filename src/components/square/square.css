@@ -1,0 +1,20 @@
+.squareContainer{
+width: 30%;
+height: 30%;
+background-color: #1F3641;
+margin: 2px;
+cursor: pointer;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.squareContainer:hover{
+    opacity: 0.7;
+}
+img{
+    height: 70%;
+    width: 70%;
+    
+}
