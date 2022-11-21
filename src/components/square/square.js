@@ -15,7 +15,7 @@ export default function Square(props) {
     },[props.icon])
     function onSquarePress(){
         setIsClicked(true)
-        props.onClick(props.data)
+        props.onClick()
     }
     return (
         <div className="squareContainer" onClick={onSquarePress}>
@@ -23,7 +23,6 @@ export default function Square(props) {
             { isClicked &&
                 <img src={props.icon} alt=""/> 
              
-                    
             }
         </div>
     )

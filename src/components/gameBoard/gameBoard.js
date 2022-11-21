@@ -192,7 +192,7 @@ export default function GameBoard(props) {
                         msgMain: `'O' win in this game`,
                         button1Name: 'Quit',
                         button2Name: 'Round again',
-                        button1Click: () => { },
+                        button1Click: () => {setOpenModal(false);props.onQuit()},
                         button2Click: () => restartGameHandle()
                     }
                 )
@@ -209,8 +209,7 @@ export default function GameBoard(props) {
                 {squaresBoard.map(item => {
                     return (
                         <Square
-                            onClick={squareClickHandle}
-                            data={item}
+                            onClick={()=>squareClickHandle(item)}
                             icon={item.icon}
                             key={item.idSquare} />
                     )
